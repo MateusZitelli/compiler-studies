@@ -1,4 +1,4 @@
-# Compiler studies
+# Compilers studies
 
 Some code developed for study during the enrolment of the compile course at
 UFABC (MC3201).
@@ -15,8 +15,11 @@ valid LISP like language, it supports just the 4 basic arithmetic operations
 (+ - * /) with integers.
 
 e.g.:
+```lisp
 (+ 2 3)
+
 (\* (3 (/ 3 2)) (+ 2 3))
+```
 
 ### Running
 
