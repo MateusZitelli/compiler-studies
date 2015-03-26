@@ -26,3 +26,9 @@ e.g.:
 ```sh
 python3 src/parser.py
 ```
+
+### Testing
+
+```sh
+python3 src/test_parser.py
+```
