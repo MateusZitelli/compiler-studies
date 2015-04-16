@@ -220,3 +220,236 @@ switch (state) {
    // Definir um erro
    break;
  }
+switch (state) {
+   case 0:
+     switch (state) {
+       case 'rename':
+       if(palavra == 'palava'){
+      
+switch (state) {
+   case 0:
+     switch (state) {
+       case ')':
+       if(palavra == 'palava'){
+      
+switch (state) {
+   case 0:
+     switch (state) {
+       case ')':
+       if(palavra == 'palava'){
+       return new Token(TokenType.) , String.valueOf(palavra)); // retornar token para )
+       case '(':
+       if(palavra == 'palava'){
+       return new Token(TokenType.( , String.valueOf(palavra)); // retornar token para (
+       case '*':
+       if(palavra == 'palava'){
+       return new Token(TokenType.* , String.valueOf(palavra)); // retornar token para *
+       case ',':
+       if(palavra == 'palava'){
+       return new Token(TokenType., , String.valueOf(palavra)); // retornar token para ,
+       case ';':
+       if(palavra == 'palava'){
+       return new Token(TokenType.; , String.valueOf(palavra)); // retornar token para ;
+       case '=':
+       if(palavra == 'palava'){
+       return new Token(TokenType.= , String.valueOf(palavra)); // retornar token para =
+       case '<':
+       state = 8;
+       case '>':
+       state = 9;
+       case 'a':
+       state = 6;
+       case 'c':
+       state = 10;
+       case 'd':
+       state = 3;
+       case 'f':
+       state = 6;
+       case 'i':
+       state = 4;
+       case 'k':
+       if(palavra == 'palava'){
+       return new Token(TokenType.key , String.valueOf(palavra)); // retornar token para key
+       case 'm':
+       if(palavra == 'palava'){
+       return new Token(TokenType.modify , String.valueOf(palavra)); // retornar token para modify
+       case 'n':
+       state = 9;
+       case 'p':
+       if(palavra == 'palava'){
+       return new Token(TokenType.primary , String.valueOf(palavra)); // retornar token para primary
+       case 's':
+       if(palavra == 'palava'){
+       return new Token(TokenType.select , String.valueOf(palavra)); // retornar token para select
+       case 'r':
+       state = 7;
+       case 'u':
+       if(palavra == 'palava'){
+       return new Token(TokenType.use , String.valueOf(palavra)); // retornar token para use
+       case 't':
+       state = 3;
+       case 'w':
+       if(palavra == 'palava'){
+       return new Token(TokenType.where , String.valueOf(palavra)); // retornar token para where
+       case 'v':
+       state = 11;
+       default:
+       // Definir um erro
+       break;
+     }
+   case 1:
+     switch (state) {
+       case 'a':
+       if(palavra == 'palava'){
+       return new Token(TokenType.alter , String.valueOf(palavra)); // retornar token para alter
+       case 'auto_increment':
+       if(palavra == 'palava'){
+       return new Token(TokenType.('auto_increment',) , String.valueOf(palavra)); // retornar token para auto_increment
+       case 'add':
+       if(palavra == 'palava'){
+       return new Token(TokenType.('add',) , String.valueOf(palavra)); // retornar token para add
+       default:
+       // Definir um erro
+       break;
+     }
+   case 2:
+     switch (state) {
+       case 'drop':
+       if(palavra == 'palava'){
+       return new Token(TokenType.('drop',) , String.valueOf(palavra)); // retornar token para drop
+       case 'd':
+       if(palavra == 'palava'){
+       return new Token(TokenType.database , String.valueOf(palavra)); // retornar token para database
+       case 'delete':
+       if(palavra == 'palava'){
+       return new Token(TokenType.('delete',) , String.valueOf(palavra)); // retornar token para delete
+       default:
+       // Definir um erro
+       break;
+     }
+   case 3:
+     switch (state) {
+       case 'table':
+       if(palavra == 'palava'){
+       return new Token(TokenType.('table',) , String.valueOf(palavra)); // retornar token para table
+       case 't':
+       if(palavra == 'palava'){
+       return new Token(TokenType.truncate , String.valueOf(palavra)); // retornar token para truncate
+       default:
+       // Definir um erro
+       break;
+     }
+   case 4:
+     switch (state) {
+       case 'i':
+       if(palavra == 'palava'){
+       return new Token(TokenType.insert , String.valueOf(palavra)); // retornar token para insert
+       case 'into':
+       if(palavra == 'palava'){
+       return new Token(TokenType.('into',) , String.valueOf(palavra)); // retornar token para into
+       default:
+       // Definir um erro
+       break;
+     }
+   case 5:
+     switch (state) {
+       case 'null':
+       if(palavra == 'palava'){
+       return new Token(TokenType.('null',) , String.valueOf(palavra)); // retornar token para null
+       case 'numeric':
+       if(palavra == 'palava'){
+       return new Token(TokenType.('numeric',) , String.valueOf(palavra)); // retornar token para numeric
+       case 'n':
+       if(palavra == 'palava'){
+       return new Token(TokenType.not , String.valueOf(palavra)); // retornar token para not
+       default:
+       // Definir um erro
+       break;
+     }
+   case 6:
+     switch (state) {
+       case 'f':
+       if(palavra == 'palava'){
+       return new Token(TokenType.from , String.valueOf(palavra)); // retornar token para from
+       case 'foreign':
+       if(palavra == 'palava'){
+       return new Token(TokenType.('foreign',) , String.valueOf(palavra)); // retornar token para foreign
+       default:
+       // Definir um erro
+       break;
+     }
+   case 7:
+     switch (state) {
+       case 'r':
+       if(palavra == 'palava'){
+       return new Token(TokenType.rename , String.valueOf(palavra)); // retornar token para rename
+       case 'references':
+       if(palavra == 'palava'){
+       return new Token(TokenType.('references',) , String.valueOf(palavra)); // retornar token para references
+       default:
+       // Definir um erro
+       break;
+     }
+   case 8:
+     switch (state) {
+       case '<=':
+       if(palavra == 'palava'){
+       return new Token(TokenType.('<=',) , String.valueOf(palavra)); // retornar token para <=
+       case '<':
+       state = 12;
+       default:
+       // Definir um erro
+       break;
+     }
+   case 9:
+     switch (state) {
+       case '>=':
+       if(palavra == 'palava'){
+       return new Token(TokenType.('>=',) , String.valueOf(palavra)); // retornar token para >=
+       case '>':
+       if(palavra == 'palava'){
+       return new Token(TokenType.> , String.valueOf(palavra)); // retornar token para >
+       default:
+       // Definir um erro
+       break;
+     }
+   case 10:
+     switch (state) {
+       case 'char':
+       if(palavra == 'palava'){
+       return new Token(TokenType.('char',) , String.valueOf(palavra)); // retornar token para char
+       case 'c':
+       if(palavra == 'palava'){
+       return new Token(TokenType.create , String.valueOf(palavra)); // retornar token para create
+       default:
+       // Definir um erro
+       break;
+     }
+   case 11:
+     switch (state) {
+       case 'varchar':
+       if(palavra == 'palava'){
+       return new Token(TokenType.('varchar',) , String.valueOf(palavra)); // retornar token para varchar
+       case 'v':
+       if(palavra == 'palava'){
+       return new Token(TokenType.values , String.valueOf(palavra)); // retornar token para values
+       default:
+       // Definir um erro
+       break;
+     }
+   case 12:
+     switch (state) {
+       case '<>':
+       if(palavra == 'palava'){
+       return new Token(TokenType.('<>',) , String.valueOf(palavra)); // retornar token para <>
+       case '<':
+       if(palavra == 'palava'){
+       return new Token(TokenType.('<',) , String.valueOf(palavra)); // retornar token para <
+       default:
+       // Definir um erro
+       break;
+     }
+   default:
+   // Definir um erro
+   break;
+ }
